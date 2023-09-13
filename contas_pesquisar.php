@@ -24,11 +24,11 @@
             echo "</tr>";
             while($linha=mysqli_fetch_array($resultado))
             {
-                //Nas linhas abaixo obtém cada coluna da tabela de clientes e armazena em cada variável
-                $lancamento = $linha["Lancamento"];
-                $codigo = $linha["Código"];
-                $data = $linha["Data"];
-                $valor = $linha["Valor"];
+                //Nas linhas abaixo obtém cada coluna da tabela de contas- e armazena em cada variável
+                $lancamento = $linha["lancamento"];
+                $codigo = $linha["Codigo_Cliente"];
+                $data = $linha["data"];
+                $valor = $linha["valor"];
                 //Exibe os dados
                 echo "<tr>";
                     echo "<th width='100' align='right'>$lancamento</th>";
