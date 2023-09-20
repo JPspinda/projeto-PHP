@@ -7,7 +7,7 @@
     <title>Controle de Despesas - Pesquisa do Cliente</title>
     <link rel="stylesheet" href="estilos_menu.css">
 </head>
-<body>
+<body><center>
     <?php
         require "menu.php";
         echo "<h3>LISTAGEM DOS CONTAS</h3>";
@@ -38,6 +38,6 @@
                     echo "<th width='50'><a href='clientes_editar.php?codigo=$codigo'>Editar</a></th>";
                 echo "</tr>";
             }
-    ?>
+    ?></center>
 </body>
 </html>
