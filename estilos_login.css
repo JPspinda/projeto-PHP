@@ -37,7 +37,7 @@ input[type="submit"] {
     color:aliceblue;
     border:none;
     border-radius: 8px;
-
+}
 
 input[type="submit"]:hover{
     background-color: brown;

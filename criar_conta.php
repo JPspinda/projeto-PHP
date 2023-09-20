@@ -19,6 +19,7 @@
                 <label for="senha">Senha:</label>
                 <input type="password" name="senha" maxlength="20" required>
             </div>
+            <p></p>
             <input type="submit" value="Cadastrar" name="cadastrar">
         </form>
     </div>
