@@ -3,10 +3,9 @@
     padding: 0;
 }
 .menu {
-    background-color: #333;
+    background-color: rgb(78, 81, 87);
     display: flex;
     justify-content: center;
-    padding-left: 100px;
 }
 .menu ul {
     list-style: none; /* Oculta os marcadores */
@@ -26,13 +25,4 @@
 }
 h3 {
     text-align: center;
-    color:cornflowerblue;
-}
-body {
-    width:1200px;
-    margin:auto;
-}
-
-#cadastro {
-    margin:2%;
 }
