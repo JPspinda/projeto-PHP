@@ -33,6 +33,7 @@
             $sql.=" VALUES (null, '$usuario', '$senha')";
             mysqli_query($conexao, $sql) or die (mysqli_error($conexao));
             echo "<h3>Login cadastrado com sucesso!</h3>";
+            echo "<center><a href='index.html'>Voltar a Tela de Login</a></center>";
         }
     ?>
 </body>

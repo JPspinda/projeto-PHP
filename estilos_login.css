@@ -44,7 +44,7 @@ input[type="submit"]:hover{
 }
 
 a{
-    color: rgba(0, 0, 0, 0.418);
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-size:1.2em;
 }
