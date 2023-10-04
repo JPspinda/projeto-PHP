@@ -52,3 +52,11 @@ CREATE TABLE `tblogin` (
   `usuario` varchar(50) NOT NULL,
   `senha` varchar(30) NOT NULL,
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE `login`
+(
+  `codigo` INT(4) AUTO_INCREMENT PRIMARY KEY,
+  `nome` VARCHAR(40),
+  `usuario` VARCHAR(30),
+  `senha` VARCHAR(20)
+)
